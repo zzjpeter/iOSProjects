@@ -28,6 +28,7 @@ class PhotosTableViewCell: UITableViewCell {
         self.theImageView.image = UIImage(named : photo.name)
         self.photographerImageView.image = UIImage(named: photo.thumbnailImageName)
         self.captionLabel.text = photo.caption
+        self.captionLabel.textColor = UIColor.black
         
     }
 }

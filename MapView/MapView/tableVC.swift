@@ -31,6 +31,8 @@ class tableVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
         tableView.delegate = self
         
         fetchData()
+        
+        tableView.backgroundColor = UIColor.clear
     }
     
     override func viewWillAppear(_ animated: Bool) {

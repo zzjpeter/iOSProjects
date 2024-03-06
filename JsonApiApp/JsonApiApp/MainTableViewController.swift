@@ -18,6 +18,7 @@ class MainTableViewController: UITableViewController {
         super.viewDidLoad()
         
         getLatestData() // metodu çağır.
+        view.backgroundColor = UIColor.white
         
     }
     

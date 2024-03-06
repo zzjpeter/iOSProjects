@@ -34,13 +34,14 @@ class ViewController: UIViewController {
                     isPrime = false
                 }
                 
-                let i = 2
+                var i = 2
                 
                 while i < number{
                     if number % i == 0{
                         isPrime = false
+                        break
                     }
-                    break
+                    i += 1
                 }
                 
                 if isPrime{ // asal sayı ise

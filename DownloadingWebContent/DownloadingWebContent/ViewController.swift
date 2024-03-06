@@ -16,15 +16,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        /*
+        
          
          if let url = URL(string: "https://www.stackoverflow.com"){ // url
          
          webView.load(URLRequest(url: url)) // yükle
          
-         webView.loadHTMLString("<h1>Hello Guys!</h1>", baseURL: nil) // herhangibir sayfaya yazı
+         //webView.loadHTMLString("<h1>Hello Guys!</h1>", baseURL: nil) // herhangibir sayfaya yazı
          
-         }*/
+         }
         
         
         if let url = URL(string: "https://www.apple.com"){ // url tanımı - unwrapping işlemi

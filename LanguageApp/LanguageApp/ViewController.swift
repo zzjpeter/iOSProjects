@@ -27,13 +27,13 @@ class ViewController: UIViewController {
                                              doneBlock: { (picker, indexes, values) in
             let index = indexes?[0] as! Int
             
-            UserDefaults.standard.set(self.languageCodes[index], forKey: "AppleLanguages")
-            
+            UserDefaults.standard.set(self.languageCodes[index], forKey: "AppleLanguages01")
+
             UserDefaults.standard.synchronize()
             
             print("Uygulamayı açıp kapayınız dili değişecektir.")
             
-            // print("seçilen dil : \(index)")
+            print("seçilen dil : \(index)")
             
             return
         },

@@ -472,13 +472,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8Q29ZWM92L;
+				DEVELOPMENT_TEAM = KLZ6FTC7C7;
 				INFOPLIST_FILE = MessageApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.halil.ozel.MessageApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzj.WeMeetSDKSwiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -491,13 +491,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8Q29ZWM92L;
+				DEVELOPMENT_TEAM = KLZ6FTC7C7;
 				INFOPLIST_FILE = MessageApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.halil.ozel.MessageApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzj.WeMeetSDKSwiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -508,14 +508,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8Q29ZWM92L;
+				DEVELOPMENT_TEAM = KLZ6FTC7C7;
 				INFOPLIST_FILE = SiriKitAppUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.halil.ozel.MessageApp.SiriKitAppUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzj.WeMeetSDKSwiftDemo.SiriKitAppUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -527,14 +527,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8Q29ZWM92L;
+				DEVELOPMENT_TEAM = KLZ6FTC7C7;
 				INFOPLIST_FILE = SiriKitAppUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.halil.ozel.MessageApp.SiriKitAppUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzj.WeMeetSDKSwiftDemo.SiriKitAppUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -546,14 +546,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8Q29ZWM92L;
+				DEVELOPMENT_TEAM = KLZ6FTC7C7;
 				INFOPLIST_FILE = SiriKitApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.halil.ozel.MessageApp.SiriKitApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzj.WeMeetSDKSwiftDemo.SiriKitApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -565,14 +565,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8Q29ZWM92L;
+				DEVELOPMENT_TEAM = KLZ6FTC7C7;
 				INFOPLIST_FILE = SiriKitApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.halil.ozel.MessageApp.SiriKitApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzj.WeMeetSDKSwiftDemo.SiriKitApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;

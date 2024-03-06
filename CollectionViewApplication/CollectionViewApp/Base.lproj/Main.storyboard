@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gxt-mP-L5K">
-    <device id="retina6_1" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gxt-mP-L5K">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -69,18 +67,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vgv-rK-0TH">
-                                <rect key="frame" x="20" y="98" width="374" height="147"/>
+                                <rect key="frame" x="20" y="102" width="374" height="147"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="147" id="sr5-Br-gvK"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4o3-F8-v20">
-                                <rect key="frame" x="20" y="295" width="374" height="197"/>
+                                <rect key="frame" x="20" y="299" width="374" height="193"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="e1p-DB-pKz"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="4o3-F8-v20" firstAttribute="top" secondItem="vgv-rK-0TH" secondAttribute="bottom" constant="50" id="1RR-I4-hgN"/>
@@ -91,8 +90,8 @@
                             <constraint firstItem="4o3-F8-v20" firstAttribute="leading" secondItem="e1p-DB-pKz" secondAttribute="leading" constant="20" id="fJM-KD-N6w"/>
                             <constraint firstItem="vgv-rK-0TH" firstAttribute="trailing" secondItem="4o3-F8-v20" secondAttribute="trailing" id="liB-QU-eyY"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="e1p-DB-pKz"/>
                     </view>
+                    <navigationItem key="navigationItem" id="boT-nI-kTJ"/>
                     <connections>
                         <outlet property="detailImageView" destination="vgv-rK-0TH" id="SLB-JR-65z"/>
                         <outlet property="detailLabel" destination="4o3-F8-v20" id="2xf-gK-83j"/>
@@ -108,7 +107,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gxt-mP-L5K" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Xs4-VP-e7F">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>

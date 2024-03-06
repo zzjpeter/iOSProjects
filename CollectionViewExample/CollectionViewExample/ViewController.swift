@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController,UICollectionViewDelegate,UICollectionViewDataSource {
     
     
-    var pictures = [#imageLiteral(resourceName: "prayer"),#imageLiteral(resourceName: "earth"),#imageLiteral(resourceName: "phone-receiver"),#imageLiteral(resourceName: "university"),#imageLiteral(resourceName: "coins")]
+    var pictures = [#imageLiteral(resourceName: "prayer"),#imageLiteral(resourceName: "earth"),#imageLiteral(resourceName: "phone-receiver"),#imageLiteral(resourceName: "university"),#imageLiteral(resourceName: "coins"),#imageLiteral(resourceName: "university.png"),#imageLiteral(resourceName: "university.png"),#imageLiteral(resourceName: "university.png"),#imageLiteral(resourceName: "university.png"),#imageLiteral(resourceName: "university.png"),#imageLiteral(resourceName: "university.png"),#imageLiteral(resourceName: "university.png"),#imageLiteral(resourceName: "university.png"),#imageLiteral(resourceName: "university.png"),#imageLiteral(resourceName: "university.png")]
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -25,8 +25,10 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         
         tableView.delegate = self
         tableView.dataSource = self
+        tableView.backgroundColor = UIColor.white;
         
         getInfo()
+
     }
     
     
@@ -107,6 +109,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell()
         cell.textLabel?.text = nameArray[indexPath.row] // satırlarda bulunacak degerler
+        cell.backgroundColor = UIColor.gray
         return cell
     }
     

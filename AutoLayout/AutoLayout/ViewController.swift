@@ -58,10 +58,12 @@ class ViewController: UIViewController {
         bearImageView.heightAnchor.constraint(equalToConstant: 200).isActive = true
         
         
-        descriptionTextView.topAnchor.constraint(equalTo: bearImageView.bottomAnchor,constant:120).isActive = true
-        descriptionTextView.leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
-        descriptionTextView.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
-        descriptionTextView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant:0).isActive = true
+        let descriptionTextViewTop = descriptionTextView.topAnchor.constraint(equalTo: bearImageView.bottomAnchor,constant:120)
+        let descriptionTextViewLeft = descriptionTextView.leftAnchor.constraint(equalTo: view.leftAnchor)
+        let descriptionTextViewRight = descriptionTextView.rightAnchor.constraint(equalTo: view.rightAnchor)
+        let descriptionTextViewBottom = descriptionTextView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant:0)
+        NSLayoutConstraint.activate([descriptionTextViewTop, descriptionTextViewLeft, descriptionTextViewRight, descriptionTextViewBottom])
+        
         
         /*
          

@@ -42,7 +42,7 @@ class ViewController: UIViewController {
     override func motionEnded(_ motion:UIEventSubtype, with event: UIEvent?){
         
         if event?.subtype == UIEventSubtype.motionShake{
-            print("cihaz sallandı")
+            print("motionShake")
         }
     }
     
@@ -53,13 +53,13 @@ class ViewController: UIViewController {
         if let swipeGesture = gesture as? UISwipeGestureRecognizer{
             
             if swipeGesture.direction == UISwipeGestureRecognizerDirection.left{
-                print("soldan sağa ")
+                print("swipe left")
             }else if swipeGesture.direction == UISwipeGestureRecognizerDirection.right{
-                print("sağdan sola")
+                print("swipe right")
             }else if swipeGesture.direction == UISwipeGestureRecognizerDirection.up{
-                print("yukarıdan aşağı")
+                print("swipe up")
             }else if swipeGesture.direction == UISwipeGestureRecognizerDirection.down{
-                print("aşağıdan yukarı")
+                print("swipe down")
             }
         }
     }

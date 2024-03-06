@@ -37,7 +37,7 @@ class ViewController: UIViewController {
     @IBAction func saveClicked(_ sender: Any) {
         
         username = nameText.text! // alınan değer text içeriğindeki değere eşit olacak
-        
+        //注！！！ 这里和xib拉线 action triggered segue 等价
         performSegue(withIdentifier: "fromFirstToSecond", sender: nil) // segue çalışması için gerekli metod
     }
 }

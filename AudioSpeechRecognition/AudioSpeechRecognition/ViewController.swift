@@ -13,8 +13,15 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        audioSpeechRecognition()
         
-        
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        audioSpeechRecognition()
+    }
+    
+    func audioSpeechRecognition() {
         // ses dosyası için bir path tanımlandı.
         if let audioPath = Bundle.main.path(forResource: "sound1", ofType: "mp3"){
             

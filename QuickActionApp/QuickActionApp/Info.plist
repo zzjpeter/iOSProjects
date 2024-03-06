@@ -20,6 +20,69 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>UIApplicationShortcutItems</key>
+	<array>
+		<dict>
+			<key>UIApplicationShortcutItemIconFile</key>
+			<string>quick Actions</string>
+			<key>UIApplicationShortcutItemSubtitle</key>
+			<string>Alt yazı</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Kısayol 1</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>quick1</string>
+			<key>UIApplicationShortcutItemUserInfo</key>
+			<dict>
+				<key>version</key>
+				<string>$(APP_VERSION)</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemIconFile</key>
+			<string>quick Actions</string>
+			<key>UIApplicationShortcutItemSubtitle</key>
+			<string>Alt yazı</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Kısayol 2</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>quick2</string>
+			<key>UIApplicationShortcutItemUserInfo</key>
+			<dict>
+				<key>version</key>
+				<string>$(APP_VERSION)</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemIconFile</key>
+			<string>quick Actions</string>
+			<key>UIApplicationShortcutItemSubtitle</key>
+			<string>Alt yazı</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Kısayol 3</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>quick3</string>
+			<key>UIApplicationShortcutItemUserInfo</key>
+			<dict>
+				<key>version</key>
+				<string>$(APP_VERSION)</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemIconFile</key>
+			<string>quick Actions</string>
+			<key>UIApplicationShortcutItemSubtitle</key>
+			<string>Alt yazı</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Kısayol 4</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>quick4</string>
+			<key>UIApplicationShortcutItemUserInfo</key>
+			<dict>
+				<key>version</key>
+				<string>$(APP_VERSION)</string>
+			</dict>
+		</dict>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -40,72 +103,6 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
-	</array>
-	<key>UIApplicationShortcutItems</key>
-	<array>
-		<dict>
-			<key>UIApplicationShortcutItemIconFile</key>
-			<string>quick Actions</string>
-			<key>UIApplicationShortcutItemTitle</key>
-			<string>Kısayol 1</string>
-			<key>UIApplicationShortcutItemSubtitle</key>
-			<string>Alt yazı</string>
-			<key>UIApplicationShortcutItemType</key>
-			<string>quick1</string>
-			<key>UIApplicationShortcutItemUserInfo</key>
-			<dict>
-				<key>version</key>
-				<string>$(APP_VERSION)</string>
-			</dict>
-		</dict>
-        
-        <dict>
-            <key>UIApplicationShortcutItemIconFile</key>
-            <string>quick Actions</string>
-            <key>UIApplicationShortcutItemTitle</key>
-            <string>Kısayol 2</string>
-            <key>UIApplicationShortcutItemSubtitle</key>
-            <string>Alt yazı</string>
-            <key>UIApplicationShortcutItemType</key>
-            <string>quick2</string>
-            <key>UIApplicationShortcutItemUserInfo</key>
-            <dict>
-                <key>version</key>
-                <string>$(APP_VERSION)</string>
-            </dict>
-        </dict>
-        
-        <dict>
-            <key>UIApplicationShortcutItemIconFile</key>
-            <string>quick Actions</string>
-            <key>UIApplicationShortcutItemTitle</key>
-            <string>Kısayol 3</string>
-            <key>UIApplicationShortcutItemSubtitle</key>
-            <string>Alt yazı</string>
-            <key>UIApplicationShortcutItemType</key>
-            <string>quick3</string>
-            <key>UIApplicationShortcutItemUserInfo</key>
-            <dict>
-                <key>version</key>
-                <string>$(APP_VERSION)</string>
-            </dict>
-        </dict>
-        
-        <dict>
-            <key>UIApplicationShortcutItemIconFile</key>
-            <string>quick Actions</string>
-            <key>UIApplicationShortcutItemTitle</key>
-            <string>Kısayol 4</string>
-            <key>UIApplicationShortcutItemSubtitle</key>
-            <string>Alt yazı</string>
-            <key>UIApplicationShortcutItemType</key>
-            <string>quick4</string>
-            <key>UIApplicationShortcutItemUserInfo</key>
-            <dict>
-                <key>version</key>
-                <string>$(APP_VERSION)</string>
-            </dict>
-        </dict>
 	</array>
 </dict>
 </plist>
